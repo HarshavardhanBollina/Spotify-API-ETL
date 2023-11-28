@@ -32,5 +32,5 @@ def artist_data(artist_id):
 
 
 
-print(auth_response_data)
+print(artist_data(artist_id).json())
 
